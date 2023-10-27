@@ -50,6 +50,7 @@ body {
 }
 
 .desc-link {
+    background: #005FA3;
     text-decoration: none;
     font-size: 25px;
     font-weight: 400;
@@ -62,38 +63,111 @@ body {
 
 .section-title {
     color: #BDBDBD;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33px;
 }
+
 .section-sub-title {
     color: #333;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69px;
 }
+
+
+.company-name {
+    color: #005FA3;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69px;
+}
+
 .about-us-paragraph {
     color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
 }
 
 .service-item-link {
     background-image: url(../img/back\ acc.jpg) ;
     text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30px;
 }
+
 .service-item-title {
     color: #FFF;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
 }
+
 .number-of-cases {
     color: #000;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 66px;
 }
+
 .major-transactions {
     color: #000;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
 }
+
 .all-transactions-link {
     color: #005FA3;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
 }
 .about-us {
     background-color: white;
 }
-.company-name {
-    color: #005FA3;
+
+.our-clients {
+    background-color: #EBEBEB;
+
 }
+
+
 .desc-of-transactions {
     background-color: #EBEBEB;
+}
+
+.review-button {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.review-item-text {
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.review-item-author {
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+}
+
+.review-item-position {
+    color: #4F4F4F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
 }
 
 .our-advantages {
@@ -103,25 +177,34 @@ body {
 
 .desc-of-advantages {
     color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.contat-us {
+    background-color: black;
+    background-image: url(../img/first\ screen\ bkg.jpg);
 }
 
 .desc-footer {
     color: #FFF;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69px;
 }
 
-.review-button {
-    color: #FFF;
-
-}
-.review-item-text {
-    color: #000;
-}
-
-.review-item-author {
-    color: #000;
+.desc-footer-questions {
+    color:#FFF
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
 }
 
-.review-item-position {
-    color: #4F4F4F;
-
+.desc-footer-contact {
+    color: #FFF
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
 }
