@@ -17,6 +17,17 @@ body {
 }
 header {
     padding: 23px 0 31px;
+    }
+
+.flex-header-logo {
+    display: flex;
+    align-items: center; 
+}
+
+.top-line {
+    margin: 0 0 18 px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-title {
@@ -47,6 +58,10 @@ header {
     line-height: 17px;
 }
 
+.flex-nav:nth-last-of-type(n+2) {
+    margin: 0 0 0 68px;
+    }
+
 .desc {
     padding: 170px 0;
     background-color: #191E22;
@@ -66,7 +81,7 @@ header {
     line-height: 66px;
     width: 333px;
     min-height: 84px;
-    }
+}
 
 .desc-link {
     background: #005FA3;
@@ -83,11 +98,24 @@ header {
 
 .service {
     background: #EBEBEB;
-    padding: 140px, 0;
+    padding: 140px;
 }
+
 
 .about-us {
     padding: 140px;
+}
+
+.flex {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.wrp-padding {
+    padding: 0 0 0 15px;
 }
 
 .about-subtitle {
@@ -99,7 +127,7 @@ header {
     font-size: 24px;
     font-weight: 900;
     line-height: 33px;
-    margin: 0, 0, 40px;
+    margin: 0 0  40px;
 }
 
 .section-sub-title {
@@ -110,7 +138,11 @@ header {
     line-height: 69px;
 }
 
-
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .company-name {
     color: #005FA3;
     font-family: Merriweather;
@@ -128,6 +160,7 @@ header {
     font-size: 18px;
     font-weight: 300;
     line-height: 25px;
+    width: 445px;
 }
 
 .service-item-link {
@@ -138,11 +171,16 @@ header {
     line-height: 30px;
     width: 350px;
     min-height: 360px;
-    display: block;
     padding: 45px;
     background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
 }
 
+.service-item:nth-of-type(n+4)  {
+    margin: 30px 0  0;
+}
 .service-item-title {
     color: #FFF;
     font-size: 24px;
@@ -173,6 +211,7 @@ header {
     font-weight: 700;
     line-height: 17px;
 }
+
 .about-us {
     background-color: white;
 }
@@ -180,11 +219,19 @@ header {
 .about-list {
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .clients {
     background-color: #EBEBEB;
     padding: 85px 0 92px;
+}
+
+.microsoft-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .client-subtitle {
@@ -196,6 +243,10 @@ header {
     min-height: 255px;
     padding: 30px 40px 40px;
     box-sizing: border-box;
+}
+
+.desc-of-transactions:nth-of-type(n+3) {
+    margin: 30px 0 0 0;
 }
 
 .button {
@@ -237,7 +288,7 @@ header {
 }
 
 .review {
-    padding: 174px 0 120px
+    padding: 174px 0  120px
 }
 .review-item {
     background-color: #EBEBEB;
@@ -266,12 +317,31 @@ header {
     line-height: 19px;
 }
 
-.our-advantages {
+.advantage {
     background-color: #EBEBEB;
-    padding: 102px 0 116px;
+    padding: 102px 0 112px;
 }
 .advantages-subtitle {
-    margin: 0 0 103px;
+    margin: 0 0 27px;
+}
+
+.advantage-list {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.advantage-item {
+    width: 348px;
+    min-height: 316px;
+    padding: 80px 0 37px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.adavantage-img {
+    margin: 0 0 20px;
 }
 
 .desc-of-advantages {
@@ -285,10 +355,6 @@ header {
     background-color: #161616;
     color: #FFF;
     background-image: url(../img/first\ screen\ bkg.jpg);
-}
-
-.footer-bkg {
-    color: #FFF;
 }
 
 .footer-wrp {
@@ -311,6 +377,7 @@ header {
     font-weight: 300;
     line-height: 25px;
     margin: 0 0 80px;
+    width: 410px;
 }
 
 .footer-contact {
