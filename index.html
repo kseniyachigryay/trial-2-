@@ -15,11 +15,12 @@
 </head>
 <body>
     <header class="header container">
-        <div class="flex-header-logo">
+        <div class="header-logo">
             <img class="header-img" src="./img/first logo.svg" alt="logo">
             <p class="header-title">BuhOne</p>
         </div>
-            <ul class="top-line">
+        <div class="header-menu"> 
+            <ul class="flex header-contact-container">
                 <li>
                     <a class="header-contact-link" href="tel:81112223344">
                         <img src="./img/phone icon.svg" alt="phone">
@@ -40,16 +41,17 @@
                     <img src="./img/location icon.svg" alt="location">
                     <span class="header-contact-text">Невский пр. 130</span>
                 </li>
-            </ul>    
-        <nav>
-            <ul class="flex-nav">
-                <li><a class="header-nav-link" href="#">Главная</a></li>
-                <li><a class="header-nav-link" href="#">Бухгалтерские услуги</a></li>
-                <li><a class="header-nav-link" href="#">кейсы</a></li>
-                <li><a class="header-nav-link" href="#">о компании</a></li>
-                <li><a class="header-nav-link" href="#">контакты</a></li>
-            </ul>
-        </nav>
+            </ul>   
+            <nav> 
+                <ul class="flex">
+                    <li class="header-nav-link-item"><a class="header-nav-link" href="#">Главная</a></li>
+                    <li class="header-nav-link-item"><a class="header-nav-link" href="#">Бухгалтерские услуги</a></li>
+                    <li class="header-nav-link-item"><a class="header-nav-link" href="#">кейсы</a></li>
+                    <li class="header-nav-link-item"><a class="header-nav-link" href="#">о компании</a></li>
+                    <li class="header-nav-link-item"><a class="header-nav-link" href="#">контакты</a></li>
+                </ul>
+            </nav>
+        </div>
     </header> 
     <main> 
         <section class="desc">
@@ -200,7 +202,7 @@
                         <div class="half-width">
                             <h2 class="desc-footer footer-subtitle">Связь с нами</h2>
                             <p class="footer-questions">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
-                            <ul>
+                            <ul class="flex">
                                 <li>
                                     <a class="footer-contact" href="tel:+71112223344">
                                         <img src="./img/telephone-svgrepo-com 1.svg" alt="phone">
@@ -215,7 +217,7 @@
                             </li>
                             </ul>
                         </div>
-                    </div>
+                        </div>
                     <div class="half-width wrp-padding">
                         shape 
                         <button class="button">Отправить сообщение</button>

@@ -15,20 +15,22 @@ body {
 .display-none {
     display: none;
 }
+
+.flex {
+    display: flex;
+}
+
 header {
     padding: 23px 0 31px;
-    }
+    display:flex;
+    justify-content: space-between;
+}
 
-.flex-header-logo {
+.header-logo {
     display: flex;
     align-items: center; 
 }
 
-.top-line {
-    margin: 0 0 18 px;
-    display: flex;
-    justify-content: space-between;
-}
 
 .header-title {
     color: #005FA3;
@@ -36,10 +38,22 @@ header {
     font-size: 36px;
     font-weight: 900;
     line-height: 50px;
+    padding-left: 30px;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .header-contact-link {
     text-decoration: none
+}
+
+.flex-item {
+    padding: 62px 0 0; 
 }
 
 .header-contact-text {
@@ -58,9 +72,6 @@ header {
     line-height: 17px;
 }
 
-.flex-nav:nth-last-of-type(n+2) {
-    margin: 0 0 0 68px;
-    }
 
 .desc {
     padding: 170px 0;
@@ -372,6 +383,10 @@ header {
     line-height: 69px;
 }
 
+.flex {
+    display: flex;
+
+}
 .footer-questions {
     font-size: 18px;
     font-weight: 300;
@@ -398,4 +413,6 @@ background-color: #FFF;
 
 .footer-about {
     padding: 50px 0; 
+    display: flex;
+    justify-content: space-between;
 }
