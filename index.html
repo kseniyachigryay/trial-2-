@@ -217,10 +217,23 @@
                             </li>
                             </ul>
                         </div>
+                        <div class="half-width wrp-padding">
+                            <form action="#">
+                                <div class="form-contact-wrp">
+                                    <label>
+                                        <span class="input-label">Name</span>
+                                        <input type="text" placeholder="Ivan">
+                                    </label>
+                                    <label>
+                                        <span class="input-label">Phone</span>
+                                        <input type="tel" placeholder="+7-999-999-99-99">
+                                    </label>
+                                </div>
+                                    <span class="input-label">Message</span>
+                                    <textarea placeholder="Your Message"></textarea>
+                                <button class="button form-button" type="submit">Отправить сообщение</button>
+                            </form>
                         </div>
-                    <div class="half-width wrp-padding">
-                        shape 
-                        <button class="button">Отправить сообщение</button>
                     </div>
                 </div>
             </div>
@@ -230,7 +243,39 @@
                 <p class="footer-text">Разработано: BuhOne</p>
             </div>
     <footer>
-    <div>popup</div>
+    <div class="Popup">
+        <fieldset>
+            <legend>Оставить отзыв</legend>
+                <div class="half-width wrp-padding">
+                    <form action="#">
+                        <div class="popup-contact-wrp">
+                            <label>
+                                <span class="input-label">Name</span>
+                                <input type="text" placeholder="Ivan">
+                            </label>
+                            <label>
+                                <span class="input-label">Surname</span>
+                                <input type="text" placeholder="Ivanov">
+                            </label>
+                        </div>
+                        <div class="popup-contact-wrp">
+                            <label>
+                                <span class="input-label">Email</span>
+                                <input type="email" placeholder="Email">
+                            </label>
+                                <span class="input-label">Like</span>
+                                    <input type="radio" id="yes" name="Like" value="yes">
+                                        <label for="yes">yes</label>
+                                    <input type="radio" id="no" name="Like" value="no">
+                                        <label for="no">no</label>
+                        </div>
+                                <span class="input-label">Review</span>
+                                <textarea placeholder="Your Review"></textarea>
+                        <button class="button form-button" type="submit">Отправить отзыв</button>
+                    </form>
+        </div>
+        </fieldset>
+    </div>
     </footer>
     </body>
 </html>

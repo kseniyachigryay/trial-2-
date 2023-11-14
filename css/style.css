@@ -49,18 +49,20 @@ header {
 }
 
 .header-contact-link {
-    text-decoration: none
+    text-decoration: none;
+    
 }
 
-.flex-item {
-    padding: 62px 0 0; 
-}
 
 .header-contact-text {
     color: #000;
     font-size: 13px;
     font-weight: 400;
     line-height: 17px;
+}
+
+.header-contact-container {
+    margin: 0 0 18px;
 }
 
 .header-nav-link {
@@ -70,6 +72,10 @@ header {
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
+}
+
+.header-nav-link-item:nth-of-type(n+2) {
+    margin: 0 0 0 68px;
 }
 
 
@@ -267,6 +273,8 @@ header {
     line-height: 25px;
     background-color: #005FA3;
     border: none;
+    padding: 0; 
+    box-sizing: border-box;
 }
 
 .review-button {
@@ -385,8 +393,65 @@ header {
 
 .flex {
     display: flex;
-
 }
+
+.form-contact-wrp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 35px;
+}
+
+.input-label {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 0 15px;
+}
+
+input {
+    width: 255px;
+    padding: 4px 0 15px;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
+    color: #FFF;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #BDBDBD;
+}
+
+textarea {
+    width: 100%;
+    min-height: 105px;
+    box-sizing: border-box;
+    padding: 4px 0 15px;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background-color: transparent;
+    margin: 0 0 50px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF;
+}
+
+.form-button {
+    display: block;
+    width: 270px;
+    min-height: 60px;
+    margin: 0 0 0 auto; 
+}
+
 .footer-questions {
     font-size: 18px;
     font-weight: 300;
@@ -416,3 +481,18 @@ background-color: #FFF;
     display: flex;
     justify-content: space-between;
 }
+
+.popup-contact-wrp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 35px;
+}
+
+ {
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+    border: 2px;
+}
+
+
